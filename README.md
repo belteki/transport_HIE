@@ -3,7 +3,7 @@
 This repository contains the Python code used for data processing,
 analysis and visualization described in the following paper:
 
-GLantos, L., Berenyi, A., Morley, C. et al. **Volume guarantee ventilation in neonates treated with hypothermia for hypoxic-ischemic encephalopathy during interhospital transport.** *J Perinatol (2020). ( https://doi.org/10.1038/s41372-020-00823-8*
+Lantos, L., Berenyi, A., Morley, C., Somogyvari Zs., Belteki G. **Volume guarantee ventilation in neonates treated with hypothermia for hypoxic-ischemic encephalopathy during interhospital transport.** *J Perinatol (2020). ( https://doi.org/10.1038/s41372-020-00823-8*
 
 Contact: gusztav.belteki@addenbrookes.nhs.uk; gbelteki@aol.com
 
