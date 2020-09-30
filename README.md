@@ -28,17 +28,17 @@ ____
 
 Packages required to run this Notebook:
 
-Python version: 3.7.1
+Python version: 3.7.4
 
-IPython version: 7.2.0
+IPython version: 7.10.2
 
-pandas version: 0.23.4
+pandas version: 0.25.3
 
-matplotlib version: 3.0.2
+matplotlib version: 3.1.1
 
-NumPy version: 1.15.4
+NumPy version: 1.17.4
 
-SciPy version: 1.1.0
+SciPy version: 1.3.1
 
 I recommend downloading these packages using the freely availably Anaconda
 built: https://www.continuum.io/downloads
