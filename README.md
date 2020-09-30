@@ -42,3 +42,55 @@ SciPy version: 1.3.1
 
 I recommend downloading these packages using the freely availably Anaconda
 built: https://www.continuum.io/downloads
+
+# Jupyter Notebooks
+
+### 1. Initial processing of raw ventilator slow (0.5 Hz) data
+
+[ventilator_data_1_150](ventilator_data_1_150.ipynb): This notebook imports all ventilator data of these recordings (including ventilator parameters, settings, alarms (0.5Hz sampling rate) and waveform data (150Hz sampling rate).
+
+- Total: **150 cases**
+- 21 cases were removed as they were less than 15 minutes long (empty or partial recordings) 
+- **129 cases** remaining
+
+Dictionary containing the processed ventilation data exported as pickle archive: **data_pars_1_150.pickle** 
+
+
+[ventilator_data_151_300](ventilator_data_151_300.ipynb): This notebook imports all ventilator data of these recordings (including ventilator parameters, settings, alarms (0.5Hz sampling rate) and waveform data (150Hz sampling rate).
+
+- Total: **150 cases**
+- 1 case (AL000257) was removed it was fragmented with multiple in data
+- 32 cases were removed as they were less than 15 minutes long (empty or partial recordings) 
+- **117 cases** remaining
+
+Dictionary containing the processed ventilation data exported as pickle archive: **data_pars_151_300.pickle** 
+
+
+[ventilator_data_301_450](ventilator_data_301_450.ipynb): This notebook imports all ventilator data of these recordings (including ventilator parameters, settings, alarms (0.5Hz sampling rate) and waveform data (150Hz sampling rate).
+
+- Total: **150 cases**
+-  19 cases were removed as they were less than 15 minutes long (empty or partial recordings) 
+- **131 cases** remaining
+
+Dictionary containing the processed ventilation data exported as pickle archive: **data_pars_300_450.pickle**
+
+
+[ventilator_data_451_600](ventilator_data_451_600.ipynb): This notebook imports all ventilator data of these recordings (including ventilator parameters, settings, alarms (0.5Hz sampling rate) and waveform data (150Hz sampling rate).
+
+- Total: **150 cases**
+-  26 cases were removed as they were less than 15 minutes long (empty or partial recordings) 
+- **124 cases** remaining
+
+Dictionary containing the processed ventilation data exported as pickle archive: **data_pars_451_600.pickle**
+
+
+[ventilator_data_601_674](ventilator_data_601_674.ipynb): This notebook imports all ventilator data of these recordings (including ventilator parameters, settings, alarms (0.5Hz sampling rate) and waveform data (150Hz sampling rate).
+
+- Total: **74 cases**
+-  7 cases were removed as they were less than 15 minutes long (empty or partial recordings) 
+- **67 cases** remaining
+
+Dictionary containing the processed ventilation data exported as pickle archive: **data_pars_601_674.pickle**
+
+
+##### From AL000001-AL000674: Appropriate ventilator data are available for a total of: **129 + 117 + 131 + 124 + 67 = 568 cases**
