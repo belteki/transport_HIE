@@ -32,6 +32,7 @@ Python version: 3.7.4, IPython version: 7.10.2, pandas version: 0.25.3, matplotl
 
 I recommend downloading these packages using the freely availably Anaconda
 built: https://www.continuum.io/downloads
+____
 
 # Jupyter Notebooks
 
@@ -85,6 +86,7 @@ Dictionary containing the processed ventilation data exported as pickle archive:
 
 ##### From AL000001-AL000674: Appropriate ventilator data are available for a total of: **129 + 117 + 131 + 124 + 67 = 568 cases**
 
+____
 
 ### 2. Processing of clinical data
 
@@ -104,6 +106,7 @@ It also exports pickle archives:
 **clin_df_HIE**,
 **clin_df_CDH, clin_df_NEC, clin_df_surgical** (except NEC and CDH)
 
+____
 
 ### 3. Processing of blood gases
 
@@ -115,6 +118,7 @@ It also exports pickle archives:
 
 Dictionary containing the processed blood gas data exported as pickle archive: **blood_gases_1_665.pickle**
 
+____
 
 ### 4. Further processing of slow (0.5Hz) ventilator data
 
@@ -151,6 +155,7 @@ Imported: **data_pars_601_674.pickle**, **clin_df_1_665.pickle**
 
 Exported: dictionaries containing ventilation data as **data_pars_measurements_601_665.pickle,  data_pars_settings_601_665.pickle, data_pars_alarms_601_665.pickle**
 
+____
 
 ### 5. Further processing of recordings with mechanical ventilation
 
@@ -200,6 +205,7 @@ Imported: **data_pars_measurements_601_665.pickle,  data_pars_settings_601_665.p
 Exported: **data_pars_measurements_ventilated_601_665.pickle,  data_pars_settings_ventilated_601_665.pickle, data_pars_alarms_ventilated_601_665.pickle, vent_modes_601_665.pickle, vent_modes_ventilated_601_665.pickle, 
 ventilation_modes_601_665.xlxs, ventilation_modes_ventilated_601_665.xlsx**
 
+____
 
 ### 6. Analysis of recordings containing mechanical ventilation
 
@@ -255,6 +261,7 @@ Exported:
 - Tables and graphs about clinical data and ventilator modes 
 - **vent_modes_ventilated_601_665_plus.pickle** (additional data about multiple ventilator modes and dominant modes in the DataFrame).
 
+____
 
 ### 7. Analysis of recordings from babies with hypoxic ischaemic encephalopathy (HIE)
 
